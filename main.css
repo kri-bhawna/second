@@ -1,0 +1,135 @@
+body{
+	margin:0vh;
+	overflow-x: hidden;
+}
+nav{
+	background-color: white;
+	height:10vh;
+	width:100vw;
+	position: fixed;
+	
+
+}
+ul{
+	list-style-type: none;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+.logo{
+	padding-left: 5vw;
+    padding-bottom:0.5vh;
+    margin-top:1vh; 
+}
+nav ul{
+	float:right;
+	margin-right:3vw;
+	
+	
+	padding-top: 1vh;
+	
+}
+nav ul li{
+	font-family:'Montserrat',sans-serif;
+	display:inline-block;
+	font-size:2.5vh;
+	padding-right:1vw;
+}
+nav ul li a{
+	color:grey;
+}
+.trial a{
+	color:rgb(50,205,50);
+}
+.trial a:hover {
+	color:black;
+}
+.list a:hover {
+	color:black;
+}
+.intro{
+	background-image:url("background1.jpg");
+	background-size: cover contain;
+	background-repeat:no-repeat;
+	width:100vw;
+	height:contain;
+
+	
+}
+.left{
+	padding-top:40vh;
+	padding-bottom:25vh;
+	max-width:40vw;
+	padding-left:5vw;
+	float:left;
+}
+
+.form{
+	font-family:'Montserrat',sans-serif;
+	min-width:43vw;
+	float :right;
+	
+	margin-top:25vh;
+	margin-right: 4vw;
+
+	
+	
+}
+
+#bold{
+	display:inline-block;
+
+
+}
+.lower{
+	padding-top: 650px;
+	text-align: center;
+}
+.fname,.lname{
+	display:inline-block;
+	margin-top:4vh;
+	margin-left:2vw;
+	margin-right: 2vw;
+	
+}
+.email,.password{
+	display:inline-block;
+	margin-left:2vw;
+	margin-top:4vh;
+	margin-right: 2vw;
+
+}
+.mid{
+
+	background-image:url(b2.png);
+	background-size: cover contain;
+	background-repeat:no-repeat;
+	width:100vw;
+	height:contain;
+	
+}
+.img,.txt{
+	display: inline-block;
+}
+#tree{
+	clear:both;
+	text-align:center;
+	font-size:3vw;
+	font-family:'Montserrat',sans-serif;
+	opacity:0.8;
+
+}
+#gdev,#ibm,#alexa,#ms{
+	display:inline-block;
+}
+.one,.two,.three,.four{
+	display:inline-block;
+}
+.footer{
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	
+
+
+}
